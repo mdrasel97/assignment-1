@@ -20,6 +20,7 @@ body{
     line-height: 18px;
     border: none;
     cursor: pointer;
+    margin: 10px 0px;
 }
 .btn_primary:hover{
     background: 0;
@@ -151,3 +152,87 @@ main{
 }
 
 /* Your Opinion Matters */
+
+
+
+/* Recent News */
+.news_container{
+    background-color: #fff;
+    display: flex;
+    padding: 30px;
+    gap: 30px;
+    align-items: center;
+    border-radius: 16px;
+    margin: 30px 0px;
+}
+
+.news_img_content img{
+    width: 273px;
+    border-radius: 16px;
+}
+
+.news_text_content img{
+    width: 90px;
+}
+
+/* donate_container */
+.donate_container{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+    align-items: center;
+    text-align: center;
+    
+}
+.donate_content{
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    width: 22%;
+}
+.active{
+    background-color: #C6E4D6;
+}
+.donate_content:hover{
+    background-color: #C6E4D6;
+}
+
+.input_content input{
+    width: 100%;
+    padding: 12px 15px;
+    text-align: center;
+    margin: auto;
+    border: none;
+    border-radius: 10px;
+}
+.donate_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0px;
+}
+/* Subscribe Newsletter */
+.newsletter{
+    height: 264px;
+    background-color: #C6E4D6;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.news_letter_container{
+    width: 60%;
+}
+
+.news_letter_container input{
+    width: 80%;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 10px;
+}
+.news_letter_container button{
+    margin-left: -30px;
+}
