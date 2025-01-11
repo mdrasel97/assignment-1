@@ -145,10 +145,13 @@ main{
     background-color: white;
     padding: 30px;
     border-radius: 16px;
-    background-image: url("./assets/quote-bg.png");
-    background-position: top;
-    background-repeat: no-repeat;
+   
     text-align: left;
+}
+.qutes{
+    background-image: url("./assets/quote-bg.png");
+    background-position: 0px 10px;
+    background-repeat: no-repeat;
 }
 
 /* Your Opinion Matters */
@@ -199,7 +202,7 @@ main{
 
 .input_content input{
     width: 100%;
-    padding: 12px 15px;
+    padding: 12px 15px ;
     text-align: center;
     margin: auto;
     border: none;
@@ -231,8 +234,26 @@ main{
     width: 80%;
     padding: 12px 15px;
     border: none;
-    border-radius: 10px;
+    border-radius: 10px 0px 0px 10px ;
 }
-.news_letter_container button{
-    margin-left: -30px;
+.subscribe_btn{
+    border-radius: 0px 10px 10px 0px;
+    margin-left: -5px;
+    padding: 12px 15px;
+    border: none;
+    background-color: #006A50;
+    color: #fff;
+    margin-bottom: 10px;
+    outline: none;
+}
+footer{
+    background-color: #fff;
+    padding: 50px 10px;
+    text-align: center;
+}
+.footer_icon{
+    border-top: 1px solid #ddd;
+    width: 60%;
+    margin: 10px auto;
+    padding: 10px;
 }
