@@ -6,27 +6,54 @@
 }
 body{
     font-family: "Fira Sans", serif;
+    background-color: rgb(232, 232, 232);
 }
 
 /* primary word  */
 .btn_primary{
-
+    border-radius: 8px;
+    padding: 12px 15px;
+    background: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    border: none;
+    cursor: pointer;
 }
 .btn_primary:hover{
-    
+    background: 0;
+    border: 2px solid #006A50;
+    color: #000;
 }
 .hadding_primary{
-
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    margin: 15px 0px;
 }
 .hadding_secend{
-
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 40;
 }
 .pragraph_primary{
-
+    color: rgba(14, 14, 14, 0.5);
+    font-family: Fira Sans;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
 }
 .width_primary{
     width: 85%;
-    margin: 10px auto;
+    margin: 50px auto;
 }
 .btn_secendary{
     padding: 10px 15px;
@@ -49,3 +76,78 @@ nav{
     align-items: center;
     margin: 10px auto;
 }
+.banner{
+    background: rgb(198, 228, 214);
+    height: 75vh;
+    border-radius: 16px;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px;
+}
+
+.banner_img img{
+    width: 317px;
+}
+
+main{
+    
+}
+
+/* Pillars of "Bangladesh 2.0" */
+.pillars_section{
+    margin: 50px 0px ;
+}
+.pillars_container{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+    margin: 50px 0px;
+}
+.pillars_content{
+    padding: 20px;
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px;
+
+}
+.pillars_content img{
+    width: 41px;
+}
+/* future_container */
+.future_container{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+    margin: 50px 0px;
+}
+
+.future_content{
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #C6E4D6;
+}
+.future_content img,
+.future_content h5,
+.future_content p{
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+/* Dr. Muhammad Yunus */
+.yunus_section{
+    width: 85%;
+    height: 171px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 16px;
+    background-image: url("./assets/quote-bg.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    text-align: left;
+}
+
+/* Your Opinion Matters */
