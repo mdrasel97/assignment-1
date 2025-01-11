@@ -111,6 +111,8 @@ main{
     background-color: #fff;
     margin: 10px;
     border-radius: 10px;
+}
+.pillars_content:hover{
     box-shadow: 1px 1px 10px;
 
 }
@@ -156,7 +158,14 @@ main{
 
 /* Your Opinion Matters */
 
-
+.opinion_content{
+    background-color: #fff;
+}
+th, td {
+    padding: 15px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
 
 /* Recent News */
 .news_container{
@@ -256,4 +265,10 @@ footer{
     width: 60%;
     margin: 10px auto;
     padding: 10px;
+    
+}
+.fa-brands{
+    margin-left: 10px;
+    font-size: 20px;
+    color: #000;
 }
