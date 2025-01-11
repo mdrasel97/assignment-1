@@ -21,6 +21,7 @@ body{
     border: none;
     cursor: pointer;
     margin: 10px 0px;
+    cursor: pointer;
 }
 .btn_primary:hover{
     background: 0;
@@ -133,6 +134,9 @@ main{
     border-radius: 10px;
     background-color: #C6E4D6;
 }
+.future_content:hover{
+    border: 1px solid red;
+}
 .future_content img,
 .future_content h5,
 .future_content p{
@@ -160,6 +164,8 @@ main{
 
 .opinion_content{
     background-color: #fff;
+    padding: 24px;
+    border-radius: 16px;
 }
 th, td {
     padding: 15px;
