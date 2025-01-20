@@ -21,7 +21,9 @@ body{
     border: none;
     cursor: pointer;
     margin: 10px 0px;
+    transition: 0.3s ease-in-out;
     cursor: pointer;
+
 }
 .btn_primary:hover{
     background: 0;
@@ -65,6 +67,7 @@ body{
     font-size: 12px;
     font-weight: 600;
     line-height: 18px;
+    transition: 0.3s ease-in-out;
     cursor: pointer;
 }
 .btn_secendary:hover{
@@ -80,10 +83,11 @@ nav{
 }
 .banner{
     background: rgb(198, 228, 214);
-    height: 75vh;
+    /* height: 75vh; */
     border-radius: 16px;
     margin: 40px auto;
     display: flex;
+    /* grid-template-columns: repeat(2, 1fr); */
     justify-content: space-between;
     align-items: center;
     padding: 80px;
@@ -93,9 +97,6 @@ nav{
     width: 317px;
 }
 
-main{
-    
-}
 
 /* Pillars of "Bangladesh 2.0" */
 .pillars_section{
@@ -147,7 +148,7 @@ main{
 /* Dr. Muhammad Yunus */
 .yunus_section{
     width: 85%;
-    height: 171px;
+    /* height: 171px; */
     background-color: white;
     padding: 30px;
     border-radius: 16px;
@@ -166,11 +167,24 @@ main{
     background-color: #fff;
     padding: 24px;
     border-radius: 16px;
+    padding: 10px 0px ;
+    margin: 0 auto;
 }
-th, td {
+table{
+    width: 95%;
+    margin: 0 auto;
+    border-collapse: collapse;
+
+}
+.opinion_content td {
+    border: 1px solid #2d0f0f;
+    padding: 10px;
+  }
+  th{
     padding: 15px;
-    text-align: left;
+    background-color: #C6E4D6;
     border: 1px solid #ddd;
+    text-align: left;
   }
 
 /* Recent News */
@@ -277,4 +291,51 @@ footer{
     margin-left: 10px;
     font-size: 20px;
     color: #000;
+}
+
+@media all and (max-width: 576px) {
+    .banner{
+        flex-direction: column-reverse;
+        gap: 20px;
+        padding: 10px;
+        text-align: center;
+    }
+    .hadding_primary{
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .pillars_container{
+        flex-direction: column;
+    }
+    .future_container{
+        flex-direction: column;
+    }
+    .donate_container{
+        flex-direction: column;
+        gap: 20px;
+        
+    }
+    .donate_content{
+        padding: 30px;
+        border-radius: 10px;
+        width: 90%;
+    }
+
+
+
+    .news_letter_container{
+        width: 80%;
+    }
+
+    .news_letter_container input{
+        width: 60%;
+    }
+    .news_container{
+        flex-direction: column;
+    }
+    .news_img_content img{
+        width: 100%;
+    }
+    
 }
